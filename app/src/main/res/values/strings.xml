@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Taps</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="text_text_view_username">Hello ! Name</string>
+    <string name="text_button_sign_in_out">Sign In</string>
+    <string name="text_button_play">Play</string>
+    <string name="text_button_pause">pause</string>
+</resources>

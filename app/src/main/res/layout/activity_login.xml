@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_activity"
+    style="@style/Theme.MaterialComponents"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f333f"
+    tools:context=".LoginActivity">
+
+
+    <Button
+        android:id="@+id/sign_in_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#22bbee"
+        android:shadowRadius="400"
+        android:text="@string/text_button_sign_in_out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/play_button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF37A000"
+        android:text="@string/text_button_play"
+        android:theme="@style/Theme.MaterialComponents"
+        app:cornerRadius="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_out_button"
+        app:layout_constraintVertical_bias="0.342"
+        app:strokeColor="@color/black_overlay"
+        app:strokeWidth="40dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/username_textView"
+        style="@style/TextAppearance.App.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="@string/text_text_view_username"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_out_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg_login_activity"
+        app:layout_constraintVertical_bias="0.5">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView_user_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="User Pic"
+        android:src="@drawable/ic_profile_pic"
+        app:layout_constraintBottom_toTopOf="@+id/username_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg_login_activity"
+        app:layout_constraintVertical_bias="0.5"
+        app:shapeAppearanceOverlay="@style/circleImageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

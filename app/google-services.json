@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "410407878762",
+    "firebase_url": "https://taps-821f1.firebaseio.com",
+    "project_id": "taps-821f1",
+    "storage_bucket": "taps-821f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410407878762:android:0fcc439c35696061944a13",
+        "android_client_info": {
+          "package_name": "com.kotlinapp.taps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410407878762-qg0dno39lsojdfftvdsd9on2ve1nuest.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaN7YdqAK6cclPETF2izF29w2SLFvKpD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410407878762-qg0dno39lsojdfftvdsd9on2ve1nuest.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
