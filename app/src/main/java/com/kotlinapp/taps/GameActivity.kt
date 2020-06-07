@@ -34,7 +34,7 @@ class GameActivity : AppCompatActivity() {
     private lateinit var database : FirebaseDatabase
    private lateinit var sharedPref:SharedPreferences
     private lateinit var auth :FirebaseAuth
-    var counter = 10
+    var counter = 30
     lateinit var timer :CountDownTimer
         val viewModel : GameViewModel by viewModels()
     private lateinit var timertask:TimerTask
@@ -62,7 +62,7 @@ class GameActivity : AppCompatActivity() {
 //            }
 //        })
 
-        object: CountDownTimer(10000, 1000) {
+        object: CountDownTimer(30000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 textView_timer.text="Time : "+counter.toString()
                 counter--
